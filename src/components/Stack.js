@@ -16,7 +16,7 @@ export default function Stack({
 }
 
 Stack.propTypes = {
-  spacing: PropTypes.string,
+  spacing: PropTypes.number,
   wrap: PropTypes.bool,
   direction: PropTypes.oneOf(['row', 'column']),
 };
